@@ -63,26 +63,26 @@ table{
 }
 
 .rowhead{
-  border-right: 2px #000000;
-  border-top: 2px #000000;
+  border-right: 2px solid #000000;
+  border-top: 2px solid #000000;
 
 }
 
 td{
   text-align: center;
   padding: 10px;
-  border-top: 2px #000000;
+  border-top: 2px solid #000000;
 }
 
 tr{
-  border-top: 2px #000000;
+  border-top: 2px solid #000000;
 }
 
 tbody tr:hover {
   background-color: rgb(126,8,48,.25);
 }
 
-tr:nth-child(odd) {
+tr:nth-child(even) {
   background-color: #D1D1D1; 
 }
 
