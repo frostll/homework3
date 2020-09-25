@@ -86,17 +86,22 @@ tr:nth-child(even) {
   background-color: #D1D1D1; 
 }
 
-element:focus {
+* :focus {
   border: 3px #417243
 }
 
 thead tr:first-child th:first-child{
-  border-radius: 10px 0;
+  border-top-left-radius: 10px;
+  border-collapse: separate;
+}
+
+thead tr:last-child th:last-child{
+  border-top-right-radius: 10px;
   border-collapse: separate;
 }
 
 footer{
-  width:100%;
+  width: 100%;
   background:#000000;
   text-align:center;
   color: #FFFFFF;
