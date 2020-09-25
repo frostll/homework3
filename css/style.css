@@ -40,7 +40,7 @@ p{
 }
 
 a{
-  color: #C12258;
+  color: #B21F50;
   text-decoration: underline wavy;
   font-size: 16px;
 
@@ -75,14 +75,14 @@ td{
 }
 
 tr{
-  
+  border-top: 2px #000000;
 }
 
 tbody tr:hover {
   background-color: rgb(126,8,48,.25);
 }
 
-tr:nth-child(even) {
+tr:nth-child(odd) {
   background-color: #D1D1D1; 
 }
 
@@ -108,5 +108,6 @@ footer{
   min-height: 75px;
   position: fixed;
   bottom: 0;
+  left: 0;
 }
 
